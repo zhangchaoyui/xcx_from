@@ -1,0 +1,31 @@
+<!--pages/timeToScreen/timeToScreen.wxml-->
+<!-- 筛选时间页面 -->
+<view class="time_screen_wp">
+
+	<view class="title">筛选预计到达时间</view>
+
+	<view class="time_wp">
+
+		<!-- 开始时间 -->
+		<view class="time_left" bindtap="timeLeft">
+			<view>{{ startTime }}</view>
+			<image src="/images/sanjiaohui.png"></image>
+		</view>
+
+		<view class="time_center"></view>
+
+		<!-- 结束时间 -->
+		<view class="time_right" bindtap="timeRight">
+    	<view>{{ endTime }}</view>
+			<image src="/images/sanjiaohui.png"></image>
+		</view>
+
+	</view>
+
+	<!-- 日历 -->
+	<calendar wx:if="{{ calendarStartShow }}" bind:selectDay="getAddInfoStart"></calendar>
+	<calendar wx:if="{{ calendarEndShow }}" bind:selectDay="getAddInfoEnd"></calendar>
+
+	<view class="finish" bindtap="finishClick">完成</view>
+
+</view>

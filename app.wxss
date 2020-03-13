@@ -5,6 +5,38 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.flex_row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.font32{
+  font-size: 32rpx;
+}
+.font30{
+  font-size: 30rpx;
+}
+.font28{
+  font-size: 28rpx;
+}
+.font26{
+  font-size: 26rpx;
+}
+.font24{
+  font-size: 24rpx;
+}
+.font22{
+  font-size: 22rpx;
+}
+.font20{
+  font-size: 20rpx;
+}

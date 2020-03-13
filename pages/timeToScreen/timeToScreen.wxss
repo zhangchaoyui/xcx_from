@@ -1,0 +1,78 @@
+/* pages/timeToScreen/timeToScreen.wxss */
+
+page {
+  background: #eee;
+}
+
+.time_screen_wp {
+  font-size: 28rpx;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  padding: 40rpx 0;
+  background: #fff;
+}
+
+.time_wp {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 0 40rpx 0;
+}
+
+.time_left {
+  width: 200rpx;
+  height: 60rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 60rpx;
+  display: flex;
+  border: 2rpx solid #aaa;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20rpx;
+}
+
+.time_left image {
+  width: 20rpx;
+  height: 10rpx;
+  margin-left: 10rpx;
+}
+
+.time_center {
+  width: 70rpx;
+  height: 2rpx;
+  background: #999;
+}
+
+.time_right {
+  width: 200rpx;
+  height: 60rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 60rpx;
+  display: flex;
+  border: 2rpx solid #aaa;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20rpx;
+}
+
+.time_right image {
+  width: 20rpx;
+  height: 10rpx;
+  margin-left: 10rpx;
+}
+
+.finish {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80rpx;
+  color: #fff;
+  background: #0E948B;
+  text-align: center;
+  line-height: 80rpx;
+}
